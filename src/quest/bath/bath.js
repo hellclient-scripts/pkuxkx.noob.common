@@ -90,8 +90,8 @@
         }
         if (App.GetItemByName("蛇床子",true)==null){
             App.Commands([
-                App.NewCommand("to", App.Options.NewWalk("yzdp")),
-                App.NewCommand('do', "buy im_410;i2"),
+                App.NewCommand("to", App.Options.NewWalk("yzyp")),
+                App.NewCommand('do', "buy shechuang zi;i2"),
                 App.NewCommand('nobusy'),
                 App.NewCommand('function',App.Quest.Common.Bath.Main),
             ]).Push()
